@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="1000.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectoale.ModificarMenuController">
+    <stylesheets>
+        <URL value="@inicio.css" />
+    </stylesheets>
+   <children>
+      <Label alignment="CENTER" layoutX="384.0" layoutY="24.0" prefHeight="34.0" prefWidth="232.0" text="Modificar Menu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="Tabla" layoutX="24.0" layoutY="77.0" prefHeight="477.0" prefWidth="760.0" />
+      <Button layoutX="813.0" layoutY="397.0" mnemonicParsing="false" onAction="#Guardar" prefHeight="137.0" prefWidth="164.0" text="Guardar Cambios">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="24.0" layoutY="12.0" mnemonicParsing="false" onAction="#Cancelar" prefHeight="42.0" prefWidth="150.0" text="&lt; -- Cancelar" />
+      <Button layoutX="813.0" layoutY="196.0" mnemonicParsing="false" onAction="#Eliminar" prefHeight="64.0" prefWidth="59.0" styleClass="borrar" />
+   </children>
+</AnchorPane>

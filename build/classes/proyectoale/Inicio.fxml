@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="border" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectoale.InicioController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="Consultar">
+            <items>
+              <MenuItem fx:id="ConsulInvent" mnemonicParsing="false" text="Consultar Inventario" />
+                  <MenuItem fx:id="ConsulMenu" mnemonicParsing="false" text="Consultar Menu" />
+                  <MenuItem mnemonicParsing="false" text="Consultar Ventas" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Menu">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#AltaMenu" text="Alta Menu" />
+                  <MenuItem mnemonicParsing="false" onAction="#BajaMenu" text="Baja Menu" />
+                  <MenuItem mnemonicParsing="false" onAction="#ModificarMenu" text="Modificar Menu" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

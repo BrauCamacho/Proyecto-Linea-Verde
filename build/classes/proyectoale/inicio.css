@@ -1,0 +1,39 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.milania{
+    -fx-background-image: url("milania.jpg"); 
+    -fx-background-size: 187 122;
+}
+.campera{
+    -fx-background-image: url("campera.jpg"); 
+    -fx-background-size: 187 122;
+}
+.emplinver{
+    -fx-background-image: url("emplineaverde.jpg"); 
+    -fx-background-size: 187 122;
+}
+.enslinver{
+    -fx-background-image: url("enslineaverde.jpg"); 
+    -fx-background-size: 187 122;
+}
+.mediteranea{
+    -fx-background-image: url("mediterranea.jpg"); 
+    -fx-background-size: 187 122;
+}
+.tropical{
+    -fx-background-image: url("tropical.jpg"); 
+    -fx-background-size: 187 122;
+}
+.bienvenido{
+    -fx-background-image: url("logo.jpg"); 
+    -fx-background-size: auto;
+}
+.borrar{
+    -fx-background-image: url("Borrar.jpg"); 
+    -fx-background-size: 60 85;
+}
